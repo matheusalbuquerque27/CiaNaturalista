@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page_header, .page_content {
+    text-align: center;
+    margin-top: 15px;
+}
+
+form {
+    margin: 20px 0px;
+}
+
+form .form_line {
+    padding: 12px 0px;
+}
+
+form .form_line input[type='text'], form .form_line select {
+    width: 260px;
+    padding: 3px;
+}
+
+form .form_line input[type='submit'] {
+    width: 150px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.view {
+    border-top: 1px solid black;
+}
+
+.menu {
+    float: right;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+
+.menu a {
+    color: black;
+    padding: 0px 5px;
+}
